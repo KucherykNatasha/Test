@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace TestTask.Models.Observer
+﻿namespace TestTask.Models.Observer
 {
   public  interface ISubject
     {

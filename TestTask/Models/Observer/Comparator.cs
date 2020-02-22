@@ -1,19 +1,19 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace TestTask.Models.Observer
 {
     public class Comparator
     {
         
+
         private Route DeserialJson(string s)
         {
             Route deserObj = JsonConvert.DeserializeObject<Route>(s);
             return deserObj;
         }
+
 
 
         public void JsonCompare(string orig, string upd)
@@ -69,8 +69,8 @@ namespace TestTask.Models.Observer
                     AuditLogEntry audit = new AuditLogEntry()
                     {
                         TypeOfChange = change,
-                        NewValue = stUpdateDrivPer.FirstName + " " + stUpdateDrivPer.LastName,
-                        OriginalValue = stOrigDrivPer.FirstName + " " + stOrigDrivPer.LastName,
+                        NewValue = $"Name: {stUpdateDrivPer.FirstName }, Lastname: {stUpdateDrivPer.LastName}",
+                        OriginalValue = $"Name: {stOrigDrivPer.FirstName}, Lastname: { stOrigDrivPer.LastName}",
                         AffectedDays = origin.ActiveDays,
                         EndDateOfChange = stUpdateDateRide,
                         StartDateOfChange = stOrigDateRide,
@@ -86,6 +86,7 @@ namespace TestTask.Models.Observer
            System.IO.File.WriteAllText(fileName, result);
            
         }
+
 
         private AuditLogEntry AuditObj(DateTime stUpdateDateRide, DateTime stOrigDateRide,  Driver driver,ActiveDays ActiveDays,params string [] s)
         {

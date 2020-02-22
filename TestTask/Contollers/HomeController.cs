@@ -1,14 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.FileProviders;
-using Newtonsoft.Json;
 using TestTask.Models;
 using TestTask.Models.Observer;
 
@@ -48,7 +39,7 @@ namespace TestTask.Contollers
           Observer observer = new Observer(subject, origStr, updStr, comparator);
           subject.Go();
           TempData["ResultMessage"] = "File upload in folder of project";
-          return  RedirectToAction("Index","Home", ViewBag.Result);
+          return  RedirectToAction("Index");
         }
        
     }
