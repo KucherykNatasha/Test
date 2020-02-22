@@ -8,12 +8,12 @@ namespace TestTask.Models
     [Flags]
     public enum ActiveDays
     {
-        Sunday = 0,
-        Mondey = 1,
-        Tuesday = 2,
-        Wednesday = 3,
-        Thursday = 4,
-        Friday = 5,
-        Saturday=6
+        Sunday = 1,
+        Mondey = 2,
+        Tuesday = 4,
+        Wednesday = 8,
+        Thursday = 16,
+        Friday = 32,
+        Saturday=64
     }
 }

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TestTask.Models;
-
+using TestTask.Models.Observer;
 namespace TestTask
 {
     public class Startup
@@ -21,6 +21,7 @@ namespace TestTask
             services.AddTransient<JsonOriginal, JsonOriginal>();
             services.AddTransient<JsonUpdate, JsonUpdate>();
             services.AddTransient<JsonBox, JsonBox>();
+            services.AddTransient<Comparator, Comparator>();
             services.AddMvc();
            
         }

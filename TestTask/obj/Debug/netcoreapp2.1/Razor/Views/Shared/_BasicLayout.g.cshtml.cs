@@ -18,8 +18,13 @@ using TestTask.Models;
 
 #line default
 #line hidden
+#line 2 "C:\Users\Natasha\Desktop\Test\TestTask\TestTask\Views\_ViewImports.cshtml"
+using TestTask.Models.Observer;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"219feea9f85ae263665de07e0d360fc8a43c9963", @"/Views/Shared/_BasicLayout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5920134411c36008dc377778996962a0a0ceccc7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6b25a4c1fa5a31e0e5e780d066b7373bb4a67b5", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__BasicLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -52,12 +57,12 @@ using TestTask.Models;
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(27, 189, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "176656066dbd4e599992bf5b1e621feb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c91156456bde4665961137bc49430651", async() => {
                 BeginContext(33, 94, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>TestTask</title>\r\n    ");
                 EndContext();
                 BeginContext(127, 75, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5c1cb6c71c16496cbdade09dc1d60ad4", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b071ad042ad34c4cacc20b1da40c4133", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -91,7 +96,7 @@ using TestTask.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(218, 309, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb459d11667d49cf9828a2c4641dbff3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d3469501e48f4cf7a41cbcd949d012de", async() => {
                 BeginContext(224, 199, true);
                 WriteLiteral("\r\n    <nav class=\"navbar navbar-light\" style=\"background-color: #e3f2fd;\">\r\n        <a class=\"navbar-brand\" href=\"#\">List of audit log entries</a>\r\n    </nav>\r\n\r\n    <div class=\"col-xs-8\" >\r\n        ");
                 EndContext();

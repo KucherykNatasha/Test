@@ -18,8 +18,13 @@ using TestTask.Models;
 
 #line default
 #line hidden
+#line 2 "C:\Users\Natasha\Desktop\Test\TestTask\TestTask\Views\_ViewImports.cshtml"
+using TestTask.Models.Observer;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8fded87516b8a3a8d67de8a2d8bfa18a192c6161", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5920134411c36008dc377778996962a0a0ceccc7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6b25a4c1fa5a31e0e5e780d066b7373bb4a67b5", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
