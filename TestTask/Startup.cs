@@ -21,7 +21,6 @@ namespace TestTask
             services.AddTransient<JsonOriginal, JsonOriginal>();
             services.AddTransient<JsonUpdate, JsonUpdate>();
             services.AddTransient<JsonBox, JsonBox>();
-            
             services.AddMvc();
            
         }

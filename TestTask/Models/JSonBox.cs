@@ -9,7 +9,6 @@ namespace TestTask.Models
     {
         public string Original { get; set;}
         public string Update { get; set; }
-
         public string AuditLog { get; set; }
     }
 }

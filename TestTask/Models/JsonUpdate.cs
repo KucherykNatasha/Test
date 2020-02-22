@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace TestTask.Models
 
         public string WriteJson()
         {
-            return Newtonsoft.Json.JsonConvert.SerializeObject(Routes());
+            return JsonConvert.SerializeObject(Routes());
         }
         public Route Routes()
         {

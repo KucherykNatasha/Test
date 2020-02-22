@@ -1,5 +1,5 @@
 ﻿@model JsonBox
-@{ Layout = "_BasicLayout";
+@{
    ViewData["Title"] = "Index";
 }
 <form asp-action="AuditLogsEntry" method="post">
@@ -17,11 +17,6 @@
         <button class="btn btn-primary" type="submit">Compare</button>
     </div>
 </form>
-<div class="col-md-5 d-flex align-items-center">
-    <div class="col-md-9 mb-2">
-        <h4>Audit log entries</h4>
-        <textarea asp-for="AuditLog" class="w-100"></textarea>
-    </div>
-    </div>
+
 
 

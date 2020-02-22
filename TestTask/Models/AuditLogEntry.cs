@@ -10,10 +10,10 @@ namespace TestTask.Models
        
         public DateTime StartDateOfChange { get; set; }
         public DateTime EndDateOfChange { get; set; }
-        public DateTime AffectedDays { get; set; }
+        public int AffectedDays { get; set; }
         public string TypeOfChange { get; set; }
-        public bool OriginalValue { get; set; }
-        public bool NewValue { get; set; }
+        public string OriginalValue { get; set; }
+        public string NewValue { get; set; }
         public List<Approval> Approvals { get; set; }
 
     }
